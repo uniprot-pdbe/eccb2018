@@ -9,7 +9,8 @@ Integrating publicly available biological data from multiple data sources (inclu
 #### Andrew Nightingale, EMBL-EBI, Wellcome Genome Campus Cambridge, UK
 
 #### Mihaly Varadi, EMBL-EBI, Wellcome Genome Campus, Cambridge, UK
-
+[<img src="https://www.ebi.ac.uk/sites/ebi.ac.uk/files/styles/medium/public/person/image/varadi_mihaly_web_2015.jpg">](https://www.ebi.ac.uk/about/people/mihaly-varadi)
+Background: I received my MSc in Applied Zoology from the Veterinary University of Budapest in 2011, and my PhD in Bioscience Engineering/Computational Biology from the Vrije Universiteit Brussel in 2015. In the same year I have joined the Protein Data Bank in Europe at the European Bioinformatics Institute (EMBL-EBI) as scientific programmer. Since then I have been working on the back-end of the PDB as well as on providing programmatic access to the data via APIs, and displaying information on our front-ends using web components. I work with Python/Django, Java/Neo4J and TypeScript/Angular&Polymer.
 
 ### Course Material
 
