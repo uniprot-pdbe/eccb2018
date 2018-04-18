@@ -9,7 +9,7 @@ Learn about accessing data such as gene-protein relationships, protein sequences
 
 ### Tutors:
 #### Andrew Nightingale, EMBL-EBI, Wellcome Genome Campus Cambridge, UK
-![Andrew Nightingale](https://avatars2.githubusercontent.com/u/38358380?s=40&v=4)
+![Andrew Nightingale](https://avatars2.githubusercontent.com/u/38358380?s=100&v=4)
 
 #### Mihaly Varadi, EMBL-EBI, Wellcome Genome Campus, Cambridge, UK
 ![Mihaly Varadi](https://avatars3.githubusercontent.com/u/24314338?s=100)
