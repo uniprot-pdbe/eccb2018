@@ -50,8 +50,3 @@ I have received a BSc honours degree in Biochemistry from The University of Bath
 ![Mihaly Varadi](https://avatars3.githubusercontent.com/u/24314338?s=100)
 
 Background: I received my MSc in Applied Zoology from the Veterinary University of Budapest in 2011, and my PhD in Bioscience Engineering/Computational Biology from the Vrije Universiteit Brussel in 2015. In the same year I have joined the Protein Data Bank in Europe at the European Bioinformatics Institute (EMBL-EBI) as scientific programmer. Since then I have been working on the back-end of the PDB as well as on providing programmatic access to the data via APIs, and displaying information on our front-ends using web components. I work with Python/Django, Java/Neo4J and TypeScript/Angular&Polymer.
-
-### Course Material
-
-
-### Group Workshop topics
