@@ -32,7 +32,7 @@ Learn about accessing data such as gene-protein relationships, protein sequences
 
 14:15 - 15:00 PDBe web component library
 
-###### Coffee break
+###### Coffee break 30min
 
 #### Session 4 - Bring it all together
 15:30 - 17:00	Case study (or own ideas)
