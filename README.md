@@ -6,39 +6,38 @@ Integrating publicly available biological data from multiple data sources (inclu
 
 Learn about accessing data such as gene-protein relationships, protein sequences, protein structures and function. Explore web services, like the [UniProt API](https://www.ebi.ac.uk/proteins/api/doc/) or the [PDBe API]( http://www.ebi.ac.uk/pdbe/api/doc/) providing programmatic access to data as well as freely available visualisation components, such as [PDBe’s LiteMol viewer](https://www.ebi.ac.uk/pdbe/pdb-component-library/doc.html#a_LiteMol) and [UniProt’s ProtVista](http://ebi-uniprot.github.io/ProtVista/) that you can re-use to visualise this data as well as your own.
 
+<hr>
+
 ### Workshop schedule
 
-#### Morning Block 01
-09:00 - 09.20 Introductions and context
+#### Session 1 - Introductions
+09:00 - 09.10 Welcome
 
-09:20 - 09:40 UniProt intro
+09:10 - 09:50 Introduction to UniProt
 
-09:40 - 10:00 PDBe intro
+09:50 - 10:30 Introduction to PDBe
 
-10:00 - 10:30 Guided hands-on exploration of web pages (3x10min case studies)
+###### Coffee break 30min
 
-##### Coffee break
+#### Session 2 - API
+11:00 - 11:45 PDBe API
 
-#### Morning Block 02
-11:00 - 11:20 Introduction to UniProt API
+11:45 - 12:30 UniProt API
 
-11:20 - 11:40 Introduction to PDBe API
+###### Lunch break 60min
 
-11:40 - 12:30 Guided hands-on exploration (Jupyter notebooks)
+#### Session 3 - Web components
 
-##### Lunch break
+13:30 - 14:15 UniProt open access visualisation components
 
-#### Afternoon Block 01
-13:30 - 13:50 UniProt open access visualisation components
+14:15 - 15:00 PDBe web component library
 
-13:50 - 14:10 PDBe web component library
+###### Coffee break
 
-14:10 - 15:00 Guided hands-on exploration (HTML templates)
+#### Session 4 - Bring it all together
+15:30 - 17:00	Case study (or own ideas)
 
-##### Coffee break
-
-#### Afternoon Block 02
-15:30 - 17:00	Group workshop (Data analysis problems)
+<hr>
 
 ### Tutors:
 #### Andrew Nightingale, EMBL-EBI, Wellcome Genome Campus Cambridge, UK
