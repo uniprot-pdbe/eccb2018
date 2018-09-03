@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDBe component library example</title>
+
+
+    <!--
+    WELCOME TO THE PDBE COMPONENT LIBRARY TEMPLATE HTML
+
+    The PDB Component Library is a collection of web components for visualization of PDB
+    and related protein structural data.
+    -->
+
+
+    <!-- IMPORTING DEPENDENCIES -->
+    <!-- Complied & minified library css -->
+    <link rel="stylesheet"
+          href="//www.ebi.ac.uk/pdbe/pdb-component-library/v1.0/css/pdb.component.library.min-1.0.0.css"/>
+    <!-- Dependency scripts (these can be skipped if already included in page) -->
+    <script src="//www.ebi.ac.uk/pdbe/pdb-component-library/libs/d3.min.js"></script>
+    <script src="//www.ebi.ac.uk/pdbe/pdb-component-library/libs/angular.1.4.7.min.js"></script>
+    <!-- Complied & minified library JS -->
+    <script src="//www.ebi.ac.uk/pdbe/pdb-component-library/v1.0/js/pdb.component.library.min-1.0.0.js"></script>
+
+
+    <!-- INSTALLATION -->
+    <!-- Include this script to initialise the PDB components -->
+    <script>
+        (function () {
+            'use strict';
+            angular.element(document).ready(function () {
+                angular.bootstrap(document, ['pdb.component.library']);
+            });
+        }());
+    </script>
+
+</head>
+<body>
+
+<!-- LOADING LITEMOL 3D VIEWER -->
+<!-- The viewer is responsive and takes the dimensions of its parent element. In order to set
+fixed dimensions please wrap it in a '<div>' element with desired 'height' and 'width' values.  -->
+<!--<div style="position:relative;height:600px;width:400px;">-->
+    <pdb-lite-mol pdb-id="'1cbs'" load-ed-maps="true"></pdb-lite-mol>
+<!--</div>-->
+
+</body>
+</html>

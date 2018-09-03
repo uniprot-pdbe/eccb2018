@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDBe component library example</title>
+
+
+    <!--
+    THIS IS AN EXAMPLE OF HOW TO USE PDBE WEB COMPONENTS
+
+    The PDB Component Library is a collection of web components for visualization of PDB
+    and related protein structural data.
+    -->
+
+
+    <!-- IMPORTING DEPENDENCIES -->
+    <!-- Complied & minified library css -->
+    <link rel="stylesheet"
+          href="//www.ebi.ac.uk/pdbe/pdb-component-library/v1.0/css/pdb.component.library.min-1.0.0.css"/>
+    <!-- Dependency scripts (these can be skipped if already included in page) -->
+    <script src="//www.ebi.ac.uk/pdbe/pdb-component-library/libs/d3.min.js"></script>
+    <script src="//www.ebi.ac.uk/pdbe/pdb-component-library/libs/angular.1.4.7.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Complied & minified library JS -->
+    <script src="//www.ebi.ac.uk/pdbe/pdb-component-library/v1.0/js/pdb.component.library.min-1.0.0.js"></script>
+
+
+    <!-- INSTALLATION -->
+    <!-- Include this script to initialise the PDB components -->
+    <script>
+        (function () {
+            'use strict';
+            angular.element(document).ready(function () {
+                angular.bootstrap(document, ['pdb.component.library']);
+            });
+        }());
+    </script>
+
+</head>
+<body>
+
+<header>
+    <div class="navbar navbar-dark bg-dark shadow-sm"></div>
+</header>
+
+<main role="main">
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">PDBe Web Component Example 2</h1>
+            <p class="lead text-muted">This is an example of how to use the PDBe web components to create a summary of a
+                PDB entry</p>
+        </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row">
+                <h1>Visual summary of PDB entry 1CBS</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 shadow-sm">
+                        <pdb-prints pdb-ids="['1cbs']" settings='{"size": 48 }'></pdb-prints>
+                        <div style="height: 500px">
+                            <pdb-topology-viewer entry-id="1cbs" entity-id="1"></pdb-topology-viewer>
+                        </div>
+
+                        <div class="card-body">
+                            <p class="card-text">This is a 2D, topology visualisation of PDB entry 1CBS. You can also
+                                see the 3D rendering on the right side.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 shadow-sm">
+                        <div style="height: 500px">
+                            <pdb-lite-mol pdb-id="'1cbs'" load-ed-maps="true" hide-controls="true"></pdb-lite-mol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer class="text-muted">
+    <div class="container">
+        <p class="float-right">
+            <a href="http://getbootstrap.com/docs/4.1/examples/album/#">Back to top</a>
+        </p>
+        <p>This example uses © Bootstrap in addition</p>
+        <p>New to Bootstrap? <a href="http://getbootstrap.com/docs/4.1/">Visit the homepage</a> or read our <a
+                href="http://getbootstrap.com/docs/4.1/getting-started/">getting started guide</a>.</p>
+    </div>
+</footer>
+</body>
+</html>
+
