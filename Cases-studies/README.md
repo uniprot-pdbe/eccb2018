@@ -31,4 +31,8 @@ Big overall question - Has the information you retrieved been useful in determin
 
 Notes on isoform sequences (This is a case study in itself as can be expended in to looking at the mapped protein structures):
 UniProt functional annotations (features) are not mapped to isoform sequences. This is possible but you have to think of a
-strategy on how to do it and to test that it is correct to map the feature to the isoform.   
+strategy on how to do it and to test that it is correct to map the feature to the isoform.
+
+Notes on Python:
+Make sure you have pandas installed. If using python 3.x run pip3 install pandas
+
