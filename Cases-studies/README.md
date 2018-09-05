@@ -17,11 +17,11 @@ tutorial but we are happy for you to analyse the data how you wish, if you have 
 that you will be able to process the entire dataset completely; we suggest that you use a subset of variants from a single UniProt accession
 as a test set. 
 
-Warning: Not all the variants correctly map to the stated UniProt sequence. One test you will have to do is check that the wild type residue
+####Warning: Not all the variants correctly map to the stated UniProt sequence. One test you will have to do is check that the wild type residue
 matches the residue in the stated sequence at the residue position given.
 
 
-Suggested Analyses:
+####Suggested Analyses:
 1. Is the variant reported in UniProt?
 2. Is the variant seen in a mapped PDBe structure?
 3. Are there any protein features that colocate or overlap the variant?
@@ -29,10 +29,10 @@ Suggested Analyses:
 
 Big overall question - Has the information you retrieved been useful in determining how the variant(s) has(have) induced a drug resistence?
 
-Notes on isoform sequences (This is a case study in itself as can be expended in to looking at the mapped protein structures):
+####Notes on isoform sequences (This is a case study in itself as can be expended in to looking at the mapped protein structures):
 UniProt functional annotations (features) are not mapped to isoform sequences. This is possible but you have to think of a
 strategy on how to do it and to test that it is correct to map the feature to the isoform.
 
-Notes on Python:
+####Notes on Python:
 Make sure you have pandas installed. If using python 3.x run pip3 install pandas
 
