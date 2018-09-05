@@ -12,13 +12,10 @@ MUTATION - single letter HGVS nomenclature that tells you the wild type residue,
 ACCESSION - the UniProt accession
 ISOFORM - the sequence isoform.
 
-There are a number of questions that can be answered for this dataset, below we will outline a few suggestions that are relevant to this 
-tutorial but we are happy for you to analyse the data how you wish, if you have your own ideas. The time available is short so it is unlikely 
-that you will be able to process the entire dataset completely; we suggest that you use a subset of variants from a single UniProt accession
-as a test set. 
+There are a number of questions that can be answered for this dataset, below we will outline a few suggestions that are relevant to this tutorial but we are happy for you to analyse the data how you wish, if you have your own ideas. The time available is short so it is unlikely that you will be able to process the entire dataset completely; we suggest that you use a subset of variants from a single UniProt accession as a test set. 
 
-#### Warning: Not all the variants correctly map to the stated UniProt sequence. One test you will have to do is check that the wild type residue
-matches the residue in the stated sequence at the residue position given.
+#### Warning: 
+Not all the variants correctly map to the stated UniProt sequence. One test you will have to do is check that the wild type residue matches the residue in the stated sequence at the residue position given.
 
 
 #### Suggested Analyses:
