@@ -1,4 +1,4 @@
-## ECCB 2018 Workshop - Exploring Programmatic Access to Protein Sequence, Function and Structure Information
+## InCOB 2018 Workshop - Exploring Programmatic Access to Protein Sequence, Function and Structure Information
 
 ### Summary
 
